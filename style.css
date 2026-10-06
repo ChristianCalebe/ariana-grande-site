@@ -1,0 +1,240 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff7fb;
+    color: #29212a;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #171219, #6e315f, #d98bb8);
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+
+header p {
+    margin: 8px 0 0;
+    font-size: 17px;
+}
+
+nav {
+    background: #211822;
+    text-align: center;
+    padding: 14px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f5a9d1;
+}
+
+main {
+    width: 88%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+h2, h3, h4 {
+    color: #7c3f6b;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 25px;
+}
+
+h4 {
+    text-align: right;
+    font-size: 22px;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #b56d9b;
+}
+
+.imagem-esquerda {
+    float: left;
+    width: 230px;
+    height: 290px;
+    object-fit: cover;
+    margin: 0 25px 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.18);
+}
+
+.imagem-direita {
+    float: right;
+    width: 330px;
+    height: 230px;
+    object-fit: cover;
+    margin: 0 0 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.18);
+}
+
+.limpar {
+    clear: both;
+}
+
+.caixa {
+    background: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 18px rgba(90, 40, 80, .10);
+}
+
+.destaque {
+    background: #ffd9eb;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin: 20px 0 35px;
+}
+
+th, td {
+    border: 1px solid #9b6689;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #7c3f6b;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #fff0f7;
+}
+
+ul.discos {
+    list-style-type: disc;
+}
+
+dl {
+    background: white;
+    padding: 20px 30px;
+    border-left: 5px solid #a85888;
+}
+
+dt {
+    font-weight: bold;
+    color: #7c3f6b;
+    margin-top: 10px;
+}
+
+form {
+    background: white;
+    border: 2px solid #7c3f6b;
+    border-radius: 12px;
+    padding: 22px;
+    margin: 25px 0;
+}
+
+fieldset {
+    border: 1px solid #c28bab;
+    margin-bottom: 18px;
+    padding: 18px;
+}
+
+legend {
+    color: #7c3f6b;
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    margin: 7px 8px 7px 0;
+}
+
+input, select, textarea {
+    padding: 8px;
+    border: 1px solid #b985a4;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 110px;
+}
+
+button, input[type="submit"], input[type="reset"] {
+    background: #7c3f6b;
+    color: white;
+    border: 0;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    background: #a85888;
+}
+
+footer {
+    background: #211822;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 45px;
+}
+
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 34px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    .imagem-esquerda,
+    .imagem-direita {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        margin: 15px auto;
+    }
+
+    main {
+        width: 94%;
+    }
+}
+input[type="color"] {
+    width: 60px;
+    height: 40px;
+    padding: 2px;
+    cursor: pointer;
+}
